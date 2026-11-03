@@ -1,0 +1,32 @@
+/* TEAM */
+  Person: Tuk Or Walk (sole author, photographer, walker)
+  Contact: hello@tukorwalk.com
+  Google Maps: https://maps.app.goo.gl/SoAGrskscJ8Nycmn6
+  Location: Bangkok, Thailand (usually — the walk moves)
+  Role: Wrote every guide, walked every route, took every photo
+
+/* SITE */
+  Last update: 2026-10-28
+  Language: English
+  Doctype: HTML5
+  Standards: HTML5, CSS3, WCAG 2.1 (AA where possible)
+  Components:
+    - Playfair Display (Google Fonts) — headings
+    - Inter (Google Fonts) — body
+    - Leaflet 1.9.4 (Cloudflare CDN) — Sathon walk map only
+  Software:
+    - Built by hand, no CMS
+    - Hosted on Cloudflare (R2 for media)
+    - No analytics, no tracking, no cookies
+  Powered by: Feet, coffee, and free public Wi-Fi in Bangkok
+
+/* THANKS */
+  Google Maps Local Guides program — for the 7.3M photo views that started this site
+  OpenStreetMap contributors — for the map tiles behind Leaflet
+  The strangers who gave directions in four languages when the GPS was wrong
+
+/* NOTE */
+  Every price on this site is what I actually paid on the day.
+  Every photo is mine, taken on the walk.
+  No sponsors, no gifted stays, no affiliate links.
+  If you find an error, email me and I'll fix it on the page.

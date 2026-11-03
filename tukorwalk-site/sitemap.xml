@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ============================================================
+       HOMEPAGE
+       ============================================================ -->
+  <url>
+    <loc>https://tukorwalk.com/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/white-jade-tai-hong-gong-shrine/white-jade-tai-hong-gong-shrine-exterior.webp</image:loc>
+      <image:title>White Jade Tai Hong Gong shrine exterior, Bangkok, Thailand</image:title>
+      <image:caption>Free solo budget travel guides for Asia, walked on foot</image:caption>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       MAIN SECTION INDEXES
+       ============================================================ -->
+  <url>
+    <loc>https://tukorwalk.com/countries/index.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/wat-don-cemetery/wat-don-cemetery-chinese-arch-bridge.webp</image:loc>
+      <image:title>Chinese arch bridge in a Bangkok park, Thailand</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/gallery/index.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/white-jade-tai-hong-gong-shrine/white-jade-tai-hong-gong-shrine-main-archway.webp</image:loc>
+      <image:title>Main archway of the White Jade Tai Hong Gong Chinese shrine in Bangkok</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/trips/index.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/wat-don-cemetery/wat-don-cemetery-chinese-pavilion.webp</image:loc>
+      <image:title>Chinese pavilion at Wat Don Cemetery, Bangkok, Thailand</image:title>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       TRIP PAGES (CONTENT)
+       ============================================================ -->
+
+  <!-- Sathon Temples Walk (Thailand · Bangkok) - LIVE -->
+  <url>
+    <loc>https://tukorwalk.com/trips/thailand/bangkok/sathon-temples-walk/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/white-jade-tai-hong-gong-shrine/white-jade-tai-hong-gong-shrine-exterior-topiary.webp</image:loc>
+      <image:title>The White Jade Tai Hong Gong Shrine, Sathon, Bangkok</image:title>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       GALLERY PAGES (CONTENT)
+       ============================================================ -->
+
+  <!-- Sathon Gallery Overview (Thailand · Bangkok) - LIVE -->
+  <url>
+    <loc>https://tukorwalk.com/gallery/thailand/bangkok/sathon/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/wat-don-cemetery/wat-don-cemetery-chinese-pavilion.webp</image:loc>
+      <image:title>Chinese pavilion at Wat Don Cemetery, Sathon, Bangkok</image:title>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       LEGAL / UTILITY PAGES
+       ============================================================ -->
+
+  <url>
+    <loc>https://tukorwalk.com/about.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/contact.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/editorial-policy.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/privacy.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/affiliate-disclosure.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/terms.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/copyright.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://tukorwalk.com/image-rights.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- ============================================================
+       TODO: ADD THESE ONCE PAGES EXIST
+
+       When you create the missing per-place gallery pages,
+       uncomment and fill in the blocks below.
+
+       Example:
+
+       <url>
+         <loc>https://tukorwalk.com/gallery/thailand/bangkok/sathon/jasaen-stylish-hotel/</loc>
+         <lastmod>2026-11-02</lastmod>
+         <changefreq>monthly</changefreq>
+         <priority>0.7</priority>
+         <image:image>
+           <image:loc>https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/jasaen-stylish-hotel/jasaen-stylish-hotel-entrance-red-door-bicycle-bangkok.jpg.webp</image:loc>
+           <image:title>Jasaen Stylish Hotel entrance, Sathon, Bangkok</image:title>
+         </image:image>
+       </url>
+
+       Missing per-place gallery pages to add:
+       - /gallery/thailand/bangkok/sathon/jasaen-stylish-hotel/
+       - /gallery/thailand/bangkok/sathon/suthiwararam-temple/
+       - /gallery/thailand/bangkok/sathon/san-chao-mae-thapthim/
+       - /gallery/thailand/bangkok/sathon/kanlayanavisut-foundation/
+       - /gallery/thailand/bangkok/sathon/wat-borom-sathon/
+       - /gallery/thailand/bangkok/sathon/white-jade-tai-hong-gong-shrine/
+       - /gallery/thailand/bangkok/sathon/wat-don-cemetery/
+       - /gallery/laos/vientiane/pha-that-luang/
+
+       Missing trip pages to add when created:
+       - /trips/laos/vientiane/pha-that-luang/
+       - /trips/srilanka/galle/dadalla-beach/
+       - /trips/india/bihar/ashoka-pillar/
+
+       ============================================================ -->
+
+</urlset>

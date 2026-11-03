@@ -1,0 +1,46 @@
+# ============================================================
+# Tuk Or Walk — Cloudflare Pages _redirects
+# Format: <from>  <to>  <status>
+# 301 = permanent (SEO-consolidating)
+# 302 = temporary
+# ============================================================
+
+# ---------- WWW → apex (canonical) ----------
+# (Cloudflare handles www/apex at the DNS/edge level — but list
+#  the fallback in case the zone config changes)
+https://www.tukorwalk.com/*  https://tukorwalk.com/:splat  301
+
+# ---------- HTTP → HTTPS (fallback; Cloudflare does this at edge) ----------
+http://tukorwalk.com/*  https://tukorwalk.com/:splat  301
+http://www.tukorwalk.com/*  https://tukorwalk.com/:splat  301
+
+# ---------- Explicit index.html → directory canonical ----------
+# (server-side; matches the canonical tags on each page)
+/index.html          /           301
+/trips/index.html    /trips/     301
+/gallery/index.html  /gallery/   301
+/countries/index.html /countries/ 301
+
+# ---------- Legacy country paths → countries filter ----------
+# (in case old bookmarks or old links exist; safe to keep even if unused)
+/thailand/         /countries/index.html?country=thailand  301
+/thailand/*        /countries/index.html?country=thailand  301
+/sri-lanka/        /countries/index.html?country=srilanka  301
+/sri-lanka/*       /countries/index.html?country=srilanka  301
+/laos/             /countries/index.html?country=laos      301
+/laos/*            /countries/index.html?country=laos      301
+/india/            /countries/index.html?country=india     301
+/india/*           /countries/index.html?country=india     301
+
+# ---------- Common typos / legacy ----------
+/image-rights       /image-rights.html   301
+/privacy            /privacy.html        301
+/terms              /terms.html          301
+/contact            /contact.html        301
+/about              /about.html          301
+/copyright          /copyright.html      301
+/editorial-policy   /editorial-policy.html 301
+/affiliate-disclosure /affiliate-disclosure.html 301
+
+# ---------- 404 fallback (Cloudflare Pages serves /404.html automatically) ----------
+# No redirect needed — Cloudflare Pages looks for /404.html on 404.

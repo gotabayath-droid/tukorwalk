@@ -1,0 +1,13 @@
+# robots.txt for tukorwalk.com
+# Free solo budget travel guides, walked on foot.
+# https://tukorwalk.com/
+
+User-agent: *
+Allow: /
+
+# 404 is served as a real 404 status by the host.
+# The Disallow line is kept as belt-and-braces for any host
+# misconfiguration that would serve it as a 200.
+Disallow: /404.html
+
+Sitemap: https://tukorwalk.com/sitemap.xml

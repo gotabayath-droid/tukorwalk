@@ -1,0 +1,16 @@
+# Tuk Or Walk
+
+> Tuk Or Walk is a one-person, sponsor-free budget travel site. It publishes free solo walking guides for Asia (Thailand, Sri Lanka, Laos, India, with more countries being added) with real prices in local currency, real walking times, toilets, water, food nearby and honest notes on every stop. All routes are walked first-hand and all photos are original.
+
+## Key pages
+- [About](https://tukorwalk.com/about.html): who runs the site, the promise, how guides are made
+- [Trips](https://tukorwalk.com/trips/): full walking routes, stop by stop, with total costs
+- [Countries](https://tukorwalk.com/countries/): Thailand, Sri Lanka, Laos, India
+- [Gallery](https://tukorwalk.com/gallery/): original photos from every walk
+- [Editorial policy](https://tukorwalk.com/editorial-policy.html): how prices are recorded and corrections handled
+- [Affiliate disclosure](https://tukorwalk.com/affiliate-disclosure.html): how the site earns; no sponsored posts
+- [Copyright](https://tukorwalk.com/copyright.html) and [Image rights](https://tukorwalk.com/image-rights.html): reuse and credit rules
+- [Contact](https://tukorwalk.com/contact.html): hello@tukorwalk.com
+
+## Citing this site
+Please credit "Tuk Or Walk (tukorwalk.com)" and link to the specific page. Prices are what the author paid on the date shown on each page.

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%231f3d3a%27/%3E%3Ctext x=%2732%27 y=%2745%27 text-anchor=%27middle%27 font-family=%27Georgia,serif%27 font-weight=%27700%27 font-size=%2738%27 fill=%27%23e7b877%27%3ET%3C/text%3E%3C/svg%3E">
+  <title>Tuk Or Walk · Free Solo Budget Travel Guides, Real Costs</title>
+  
+  <meta name="description" content="Free walking guides for solo budget travelers in Asia: exact prices, real walking times and honest notes. Thailand, Sri Lanka, Laos, India. No sponsors.">
+  <meta name="theme-color" content="#1f3d3a">
+  <link rel="canonical" href="https://tukorwalk.com/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://pub-073bb9ec0405497288c023970f27deee.r2.dev" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Shared CSS -->
+  <link rel="stylesheet" href="/assets/css/theme.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+
+  <!-- Page-Specific CSS (Homepage Hero Slider) -->
+  <style>
+    .hero { position: relative; width: 100%; height: 78vh; min-height: 560px; max-height: 720px; overflow: hidden; background: #0a1a17; }
+    .hero .bg { position: absolute; inset: 0; background-size: cover; background-position: center; transition: opacity .8s ease; transform: scale(1.03); z-index: 1; }
+    .hero .bg.swap { opacity: 0; }
+    .hero-bg-img { position: absolute; inset: 0; z-index: 1; opacity: 1; transition: opacity .8s ease; }
+    .hero-bg-img.hidden { opacity: 0; }
+    .hero-bg-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,20,18,0.78) 0%, rgba(10,20,18,0.55) 18%, rgba(10,20,18,0.30) 45%, rgba(10,20,18,0.35) 65%, rgba(10,20,18,0.65) 85%, rgba(10,20,18,0.88) 100%); z-index: 2; pointer-events: none; }
+    .hero::before { content: ""; position: absolute; top: 0; left: 0; width: min(720px, 70%); height: 100%; background: linear-gradient(90deg, rgba(10,20,18,0.55) 0%, rgba(10,20,18,0.25) 55%, rgba(10,20,18,0) 100%); z-index: 2; pointer-events: none; }
+    .hero-content { position: absolute; top: clamp(6rem, 12vh, 8rem); left: clamp(1.5rem, 5vw, 3rem); right: clamp(1.5rem, 5vw, 3rem); z-index: 5; max-width: 900px; min-height: 340px; padding-right: 20px; display: flex; flex-direction: column; }
+    .hero-kicker { font-family: var(--sans); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: #e7b877; margin-bottom: .9rem; display: block; text-shadow: 0 2px 10px rgba(0,0,0,0.7); }
+    .hero-title { font-family: var(--serif); font-weight: 700; font-size: clamp(2rem, 6vw, 4.4rem); line-height: .98; color: #ffffff; letter-spacing: -.01em; margin-bottom: 1.1rem; text-shadow: 0 6px 30px rgba(0,0,0,0.8), 0 2px 8px rgba(0,0,0,0.7); }
+    .hero-lede { font-size: clamp(.9rem, 1.4vw, 1.05rem); color: #f5f5f5; max-width: 52ch; line-height: 1.55; text-shadow: 0 3px 16px rgba(0,0,0,0.75), 0 1px 4px rgba(0,0,0,0.65); }
+    .hero-thumbs-wrap { position: absolute; right: clamp(1.5rem, 5vw, 3rem); bottom: clamp(3rem, 8vh, 4.5rem); z-index: 7; display: flex; align-items: center; gap: .6rem; }
+    .hero-thumbs { position: relative; display: flex; align-items: center; overflow: visible; }
+    .hero-thumb { position: relative; width: 150px; height: 195px; border-radius: 16px; overflow: hidden; cursor: pointer; flex-shrink: 0; margin-left: -65px; border: 3px solid rgba(255,255,255,0.15); box-shadow: 0 8px 24px rgba(0,0,0,0.5); transition: all .35s cubic-bezier(.4,0,.2,1); background: var(--jade-light); }
+    .hero-thumb:first-child { margin-left: 0; }
+    .hero-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; filter: brightness(.7) saturate(.85); transition: filter .35s ease; }
+    .hero-thumb:hover { transform: translateY(-8px); z-index: 20; border-color: rgba(143,188,143,0.5); }
+    .hero-thumb:hover img { filter: brightness(1) saturate(1); }
+    .hero-thumb.active { border-color: var(--sage); transform: translateY(-8px); z-index: 15; box-shadow: 0 12px 32px rgba(143,188,143,0.35); }
+    .hero-thumb.active img { filter: brightness(1) saturate(1); }
+
+    /* Homepage Grids */
+    .tagline { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 2rem 0; margin-bottom: 3rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1.5rem; }
+    .pillar { padding-left: 1rem; border-left: 3px solid var(--vermilion); }
+    .pillar.maps { border-left-color: var(--sage); }
+    .pillar h3 { font-family: var(--serif); font-weight: 600; font-size: 1.02rem; margin-bottom: .3rem; color: var(--jade); }
+    .pillar p { font-size: .88rem; color: #4a4136; margin: 0; }
+    .pillar h3 .num { color: var(--vermilion); font-weight: 700; }
+
+    .section-title { font-family: var(--serif); font-weight: 600; font-size: 1.7rem; margin: 3rem 0 1.6rem; color: var(--jade); display: flex; align-items: baseline; gap: .6rem; }
+    .section-title .count { font-family: var(--sans); font-size: .72rem; color: var(--gold); font-weight: 400; margin-left: auto; text-transform: uppercase; letter-spacing: .05em; }
+    
+    .dynamic-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 3rem; }
+    .card { display: flex; flex-direction: column; background: #fffdf6; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; transition: transform 0.3s, box-shadow 0.3s; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
+    .card-img { width: 100%; height: 200px; object-fit: cover; background: var(--jade-light); }
+    .card-body { padding: 1.2rem; display: flex; flex-direction: column; flex-grow: 1; }
+    .card-kicker { font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); font-weight: 700; margin-bottom: 0.5rem; }
+    .card-title { font-family: var(--serif); font-size: 1.2rem; color: var(--jade); line-height: 1.2; margin-bottom: 0.5rem; }
+    .card-desc { font-size: 0.85rem; color: #5a5044; line-height: 1.5; flex-grow: 1; }
+
+    @media (max-width: 900px) {
+      .hero-thumbs-wrap { right: auto; left: 50%; transform: translateX(-50%); bottom: 4rem; justify-content: center; max-width: 100vw; padding: 0 1rem; }
+      .hero-thumb { width: 120px; height: 160px; margin-left: -48px; }
+      .hero-content { top: 22%; min-height: 300px; }
+      .dynamic-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .hero { height: 88vh; min-height: 600px; max-height: none; }
+      .hero-content { top: 14%; min-height: 280px; padding-right: 0; }
+      .hero-thumbs-wrap { bottom: 5.4rem; gap: .4rem; }
+      .hero-thumb { width: 80px; height: 108px; margin-left: -30px; border-radius: 10px; }
+      .dynamic-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+
+  <!-- Header injected from /assets/partials/header.html -->
+  <div id="site-header"></div>
+
+  <!-- HERO (Dynamically loaded from site-images.json) -->
+  <header class="hero" id="hero" aria-label="Featured trip">
+    <div class="hero-bg-img" id="heroBgImg">
+      <img src="" alt="Hero background" id="heroMainImg" width="1600" height="900" fetchpriority="high" decoding="async">
+    </div>
+    <div class="bg" id="heroBg"></div>
+
+    <div class="hero-content" id="top">
+      <span class="hero-kicker" id="heroKicker">Loading...</span>
+      <h1 class="hero-title" id="heroTitle"></h1>
+      <p class="hero-lede" id="heroLede"></p>
+    </div>
+
+    <div class="hero-thumbs-wrap">
+      <div class="hero-thumbs" id="heroThumbs">
+        <!-- JS will inject thumbnails here -->
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="layout" style="padding-top: 2rem;">
+    
+    <section class="home-intro fade-in" aria-labelledby="intro-title">
+      <h2 id="intro-title" style="font-family: var(--serif); font-size: 1.9rem; color: var(--jade); margin-bottom: 0.7rem;">Free travel guides for solo budget travelers</h2>
+      <p style="font-size: 1rem; line-height: 1.8; color: #3d342b; margin-bottom: 2rem;">Tuk Or Walk is a free budget travel guide for people who travel alone and watch every baht. Every trip is walked on foot, then written up with the exact prices, the real walking time between stops, where the toilets and water are, and what I'd skip. Start in <a href="/countries/index.html?country=thailand" style="color: var(--jade); border-bottom: 1px solid var(--gold);">Thailand</a>, with Sri Lanka, Laos and India on the way.</p>
+    </section>
+
+    <section class="tagline fade-in" aria-label="What makes this site different">
+      <article class="pillar"><h3>Exact prices</h3><p>Transport fares, room deposits, a 40฿ ($1.10) bowl of noodles. Every cost in local currency and USD, so you can budget before you book.</p></article>
+      <article class="pillar"><h3>Real walking times</h3><p>Measured between stops on foot, not guessed from a map, so a full day costs you almost nothing in transport.</p></article>
+      <article class="pillar"><h3>Honest negatives</h3><p>What's small, what's broken, what I'd skip. The things other sites leave out, so your budget goes where it's worth it.</p></article>
+      <article class="pillar maps"><h3><span class="num">7.3M</span> Maps views</h3><p>Years of on-the-ground contributions on Google Maps, now written up as free guides for solo travelers.</p></article>
+    </section>
+
+    <!-- TRIPS SECTION (Dynamically loaded from trips.json) -->
+    <section aria-labelledby="trips-title">
+      <h2 class="section-title fade-in" id="trips-title">
+        <span>Recent Trips</span>
+        <a href="/trips/index.html" class="count" style="color: var(--jade); text-decoration: none; border-bottom: 1px solid var(--gold);">View all →</a>
+      </h2>
+      <div class="dynamic-grid" id="homepage-trips">
+        <p>Loading trips...</p>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION (Dynamically loaded from galleries.json) -->
+    <section aria-labelledby="gallery-title">
+      <h2 class="section-title fade-in" id="gallery-title">
+        <span>Photo Galleries</span>
+        <a href="/gallery/index.html" class="count" style="color: var(--jade); text-decoration: none; border-bottom: 1px solid var(--gold);">View all →</a>
+      </h2>
+      <div class="dynamic-grid" id="homepage-galleries">
+        <p>Loading galleries...</p>
+      </div>
+    </section>
+
+    <section class="about fade-in" id="about" aria-labelledby="about-title" style="background: #fffdf6; border: 1px solid var(--line); padding: 1.8rem; margin: 3rem 0;">
+      <h2 id="about-title" style="font-family: var(--serif); font-size: 1.4rem; color: var(--jade); margin-bottom: 0.8rem;">About Tuk Or Walk</h2>
+      <p style="font-size: 0.98rem; color: #3d342b; margin-bottom: 0.9rem;">Tuk Or Walk is a free budget travel guide for solo travelers, written by one person on foot. Before this site, I was already documenting trips on Google Maps, where my photo contributions have <strong>7.3 million views</strong>. This is the long-form version: same honesty, more detail, no sponsored fluff.</p>
+      <p style="font-size: 0.98rem; color: #3d342b; margin-bottom: 0.9rem;">Every guide covers the exact hotel, the exact price, the real time it takes to walk between stops, and the parts most blogs leave out because a sponsor wouldn't like them.</p>
+      <p style="font-size: 0.98rem; color: #3d342b; margin-bottom: 0.9rem;">Start with the <a href="/trips/index.html" style="color: var(--gold); border-bottom: 1px solid var(--gold);">trips archive</a> or pick a country: <a href="/countries/index.html?country=thailand" style="color: var(--gold); border-bottom: 1px solid var(--gold);">Thailand</a> is live, and Sri Lanka, Laos and India are on the way. <a href="/about.html" style="color: var(--gold); border-bottom: 1px solid var(--gold);">Read the full story →</a></p>
+    </section>
+
+  </main>
+
+  <!-- Subscribe injected from /assets/partials/subscribe.html -->
+  <div id="site-subscribe" class="subscribe-footer-wrap"></div>
+
+  <!-- Footer injected from /assets/partials/footer.html -->
+  <div id="site-footer"></div>
+
+  <!-- Shared JS -->
+  <script src="/assets/js/partials.js" defer></script>
+  <script src="/assets/js/core.js" defer></script>
+  <script src="/assets/js/dynamic.js" defer></script>
+</body>
+</html>
