@@ -1,0 +1,197 @@
+[
+ {
+  "id": "ayutthaya-food-festival",
+  "status": "live",
+  "country": "thailand",
+  "countryName": "Thailand",
+  "flag": "🇹🇭",
+  "city": "ayutthaya",
+  "cityLabel": "Ayutthaya",
+  "date": "2026-11-21",
+  "url": "trips/thailand/ayutthaya/ayutthaya-light-and-sound-show/food-festival/",
+  "label": "Ayutthaya Food Festival",
+  "desc": "A free night food festival beside the Wat Phra Ram ruins: cheap Thai street food, vendors in Thai dress, live music and bamboo tables. November 2026.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/ayutthaya/ayutthaya-light-and-sound-show/ayutthaya-festival-food-stall-vendors.webp",
+  "alt": "Food stall vendors at the Ayutthaya night food festival, Thailand",
+  "stats": [
+   "<strong>Cheap</strong> street food",
+   "<strong>Night</strong> market",
+   "<strong>Ayutthaya</strong>"
+  ],
+  "home": [
+   "Evening",
+   "Food festival",
+   "Ayutthaya"
+  ],
+  "homeTitle": "Ayutthaya Food Festival at Wat Phra Ram",
+  "gallery": "gallery/thailand/ayutthaya/ayutthaya-light-and-sound-show/"
+ },
+ {
+  "id": "ayutthaya-light-and-sound-show",
+  "status": "live",
+  "country": "thailand",
+  "countryName": "Thailand",
+  "flag": "🇹🇭",
+  "city": "ayutthaya",
+  "cityLabel": "Ayutthaya",
+  "date": "2026-11-20",
+  "url": "trips/thailand/ayutthaya/ayutthaya-light-and-sound-show/",
+  "label": "Ayutthaya Light and Sound Show",
+  "desc": "A free Queen Suriyothai drama with war elephants, Khon dance and fireworks at Wat Phra Ram, Ayutthaya. Seating tips, timings and the food festival next door. November 2026.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/ayutthaya/ayutthaya-light-and-sound-show/two-elephants-blue-stage-illuminated-prang.webp",
+  "alt": "Two elephants on a blue-lit stage in front of an illuminated prang, Ayutthaya, Thailand",
+  "stats": [
+   "<strong>Free</strong> entry",
+   "<strong>7 PM</strong> show",
+   "<strong>Ayutthaya</strong>"
+  ],
+  "home": [
+   "Evening",
+   "Free show",
+   "Ayutthaya"
+  ],
+  "homeTitle": "Ayutthaya Light and Sound Show: Queen Suriyothai",
+  "gallery": "gallery/thailand/ayutthaya/ayutthaya-light-and-sound-show/"
+ },
+ {
+  "id": "vijit-chao-phraya-2026",
+  "status": "live",
+  "country": "thailand",
+  "countryName": "Thailand",
+  "flag": "🇹🇭",
+  "city": "bangkok",
+  "cityLabel": "Bangkok",
+  "date": "2026-11-14",
+  "url": "trips/thailand/bangkok/vijit-chao-phraya-2026/",
+  "label": "Vijit Chao Phraya 2026",
+  "desc": "A Bangkok riverside festival guide featuring the free Wat Arun drone show, fireworks near Memorial Bridge, MRT directions, viewing spots and Thai costume prices. 13 Nov–13 Dec 2026.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/vijit-chao-phraya-2026/drone-show/vijit-chao-phraya-2026-wat-arun-hero.webp",
+  "alt": "Wat Arun lit up across the Chao Phraya River for the Vijit Chao Phraya 2026 festival, Bangkok",
+  "stats": [
+   "<strong>Free</strong> entry",
+   "<strong>7:45 PM</strong> drone show",
+   "<strong>Bangkok</strong>"
+  ],
+  "home": [
+   "Evening",
+   "Free show",
+   "Bangkok"
+  ],
+  "homeTitle": "Vijit Chao Phraya 2026: the free Wat Arun drone show",
+  "gallery": "gallery/thailand/bangkok/vijit-chao-phraya-2026/"
+ },
+ {
+  "id": "khao-san-halloween-2026",
+  "status": "live",
+  "country": "thailand",
+  "countryName": "Thailand",
+  "flag": "🇹🇭",
+  "city": "bangkok",
+  "cityLabel": "Bangkok",
+  "date": "2026-11-01",
+  "url": "trips/thailand/bangkok/khao-san-halloween-2026/",
+  "label": "Khao San Halloween 2026",
+  "desc": "Halloween 2026 on Khao San Road, Bangkok: the free parade, costumes, club costume show, street food prices and MRT route, for about 400฿ a night.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/khao-san-road/halloween/2026/creepy-costumes-one-halloween-parade-khao-san.webp",
+  "alt": "Performers in creepy masks and vine-wrapped costumes in the One Halloween parade, Khao San Road, Bangkok",
+  "stats": [
+   "<strong>Free</strong> parade",
+   "<strong>~400฿</strong> a night",
+   "<strong>Bangkok</strong>"
+  ],
+  "home": [
+   "Evening",
+   "Free parade",
+   "Bangkok"
+  ],
+  "homeTitle": "Halloween on Khao San Road, Bangkok",
+  "gallery": "gallery/thailand/bangkok/khao-san-road/halloween-2026/"
+ },
+ {
+  "id": "sathon-temples-walk",
+  "status": "live",
+  "country": "thailand",
+  "countryName": "Thailand",
+  "flag": "🇹🇭",
+  "city": "bangkok",
+  "cityLabel": "Bangkok",
+  "date": "2026-10-21",
+  "url": "trips/thailand/bangkok/sathon-temples-walk/",
+  "label": "Sathon temples walk",
+  "desc": "A free half-day walk in Bangkok: a Thai temple, three Chinese shrines, a cemetery park, 40฿ duck noodles and a 500฿ room. About 700฿ in total.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/wat-don-cemetery/wat-don-cemetery-chinese-pavilion.webp",
+  "alt": "Chinese pavilion at Wat Don Cemetery, the last stop of the Sathon temples walk in Bangkok",
+  "stats": [
+   "<strong>9</strong> stops",
+   "<strong>~40</strong> min walking",
+   "<strong>~3¾</strong> hrs"
+  ],
+  "home": [
+   "1 day",
+   "9 stops",
+   "Bangkok"
+  ],
+  "homeTitle": "Bangkok on foot: temples, shrines and a 500฿ room",
+  "gallery": "gallery/thailand/bangkok/sathon/"
+ },
+ {
+  "id": "vientiane-monuments-walk",
+  "status": "soon",
+  "country": "laos",
+  "countryName": "Laos",
+  "flag": "🇱🇦",
+  "city": "vientiane",
+  "cityLabel": "Vientiane",
+  "date": "2026-12-31",
+  "url": "",
+  "label": "Vientiane monuments walk",
+  "desc": "Vientiane's Great Sacred Stupa and the Patuxai monument, being written up now with the same format: real costs, real walking times, honest notes.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/Lao/Vientiane/great%20sacred%20stupa_vientiane_laos.JPG",
+  "alt": "Pha That Luang, the gold-covered Great Sacred Stupa in Vientiane, Laos",
+  "stats": [
+   "<strong>Vientiane</strong>",
+   "Stupa · Patuxai",
+   "<strong>Coming</strong> soon"
+  ]
+ },
+ {
+  "id": "galle-coast-walk",
+  "status": "soon",
+  "country": "srilanka",
+  "countryName": "Sri Lanka",
+  "flag": "🇱🇰",
+  "city": "galle",
+  "cityLabel": "Galle",
+  "date": "2026-12-31",
+  "url": "",
+  "label": "Galle coast walk",
+  "desc": "Dadalla Beach and the small roads along Sri Lanka's south coast, being written up now with real costs and honest notes.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/Sri%20Lanka/Galle/dadalla_beach.JPG",
+  "alt": "Dadalla Beach north of Galle Fort, Sri Lanka",
+  "stats": [
+   "<strong>Galle</strong>",
+   "Dadalla Beach",
+   "<strong>Coming</strong> soon"
+  ]
+ },
+ {
+  "id": "bihar-heritage-walk",
+  "status": "soon",
+  "country": "india",
+  "countryName": "India",
+  "flag": "🇮🇳",
+  "city": "bihar",
+  "cityLabel": "Bihar",
+  "date": "2026-12-31",
+  "url": "",
+  "label": "Bihar heritage walk",
+  "desc": "The Ashoka Pillar and the heritage sites around it in Bihar, being written up now with the same honesty as the rest.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/India/ashoka_pillar.JPG",
+  "alt": "Ashoka Pillar lion capital in Bihar, India",
+  "stats": [
+   "<strong>Bihar</strong>",
+   "Ashoka Pillar",
+   "<strong>Coming</strong> soon"
+  ]
+ }
+]

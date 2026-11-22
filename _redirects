@@ -1,0 +1,42 @@
+# Tuk Or Walk — Cloudflare Pages _redirects
+https://www.tukorwalk.com/*  https://tukorwalk.com/:splat  301
+http://tukorwalk.com/*  https://tukorwalk.com/:splat  301
+http://www.tukorwalk.com/*  https://tukorwalk.com/:splat  301
+
+/index.html  /  301
+
+# Old dynamic trip URLs -> static trip pages
+/trips/trip.html?trip=thailand-bangkok-sathon  /trips/thailand/bangkok/sathon-temples-walk/  301
+/trips/trip.html?trip=thailand-bangkok-sathon-temples-walk  /trips/thailand/bangkok/sathon-temples-walk/  301
+/trips/trip.html?trip=thailand-bangkok-khao-san-halloween-2026  /trips/thailand/bangkok/khao-san-halloween-2026/  301
+/trips/trip.html?trip=thailand-bangkok-khao-san /trips/thailand/bangkok/khao-san-halloween-2026/ 301
+/trips/trip.html?trip=thailand-bangkok-vijit-chao-phraya-2026  /trips/thailand/bangkok/vijit-chao-phraya-2026/  301
+/trips/trip.html?trip=thailand-ayutthaya-light-and-sound-show  /trips/thailand/ayutthaya/ayutthaya-light-and-sound-show/  301
+/trips/trip.html?trip=thailand-ayutthaya-food-festival  /trips/thailand/ayutthaya/ayutthaya-light-and-sound-show/food-festival/  301
+
+# Old dynamic gallery URLs -> static gallery pages
+/gallery/gallery.html?place=thailand-bangkok-sathon /gallery/thailand/bangkok/sathon/ 301
+/gallery/gallery.html?place=thailand-bangkok-sathon-temples /gallery/thailand/bangkok/sathon/ 301
+/gallery/gallery.html?place=thailand-bangkok-khao-san-halloween-2026 /gallery/thailand/bangkok/khao-san-road/halloween-2026/ 301
+/gallery/gallery.html?place=thailand-bangkok-vijit-chao-phraya-2026 /gallery/thailand/bangkok/vijit-chao-phraya-2026/ 301
+/gallery/gallery.html?place=thailand-ayutthaya-light-and-sound-show /gallery/thailand/ayutthaya/ayutthaya-light-and-sound-show/ 301
+
+# Legacy country paths -> country-filtered trips
+/thailand/  /trips/index.html?country=thailand  301
+/thailand/*  /trips/index.html?country=thailand  301
+/sri-lanka/  /trips/index.html?country=srilanka  301
+/sri-lanka/*  /trips/index.html?country=srilanka  301
+/laos/  /trips/index.html?country=laos  301
+/laos/*  /trips/index.html?country=laos  301
+/india/  /trips/index.html?country=india  301
+/india/*  /trips/index.html?country=india  301
+
+# Short/typo links
+/image-rights  /image-rights.html  301
+/privacy  /privacy.html  301
+/terms  /terms.html  301
+/contact  /contact.html  301
+/about  /about.html  301
+/copyright  /copyright.html  301
+/editorial-policy  /editorial-policy.html  301
+/affiliate-disclosure  /affiliate-disclosure.html  301

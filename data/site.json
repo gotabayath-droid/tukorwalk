@@ -1,0 +1,14 @@
+{
+  "domain": "https://tukorwalk.com",
+  "name": "Tuk Or Walk",
+  "mapsProfile": "https://maps.app.goo.gl/77Y5Mqe3ptirzjRb6",
+  "email": "hello@tukorwalk.com",
+  "homeRecentMax": 8,
+  "perPage": 8,
+  "countries": [
+    {"slug":"thailand","name":"Thailand","flag":"🇹🇭"},
+    {"slug":"srilanka","name":"Sri Lanka","flag":"🇱🇰"},
+    {"slug":"laos","name":"Laos","flag":"🇱🇦"},
+    {"slug":"india","name":"India","flag":"🇮🇳"}
+  ]
+}

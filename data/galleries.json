@@ -1,0 +1,145 @@
+[
+ {
+  "id": "ayutthaya-light-and-sound-show",
+  "status": "live",
+  "country": "thailand",
+  "flag": "🇹🇭",
+  "city": "ayutthaya",
+  "cityLabel": "Ayutthaya",
+  "date": "2026-11-21",
+  "url": "gallery/thailand/ayutthaya/ayutthaya-light-and-sound-show/",
+  "label": "Ayutthaya Light and Sound Show",
+  "places": 2,
+  "photos": 65,
+  "desc": "War elephants, Queen Suriyothai processions, battle scenes, Khon dance, fireworks and the food festival at Wat Phra Ram: free to watch, easy to photograph.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/ayutthaya/ayutthaya-light-and-sound-show/ayutthaya-light-sound-finale-fireworks.webp",
+  "alt": "Fireworks finale over the Ayutthaya Light and Sound Show at Wat Phra Ram",
+  "stats": [
+   "<strong>65</strong> photos",
+   "<strong>Free</strong> show",
+   "<strong>Ayutthaya</strong>"
+  ],
+  "trip": "trips/thailand/ayutthaya/ayutthaya-light-and-sound-show/"
+ },
+ {
+  "id": "vijit-chao-phraya-2026",
+  "status": "live",
+  "country": "thailand",
+  "flag": "🇹🇭",
+  "city": "bangkok",
+  "cityLabel": "Bangkok",
+  "date": "2026-11-14",
+  "url": "gallery/thailand/bangkok/vijit-chao-phraya-2026/",
+  "label": "Vijit Chao Phraya 2026",
+  "photos": 50,
+  "desc": "The Wat Arun drone show, laser shows and fireworks over the Chao Phraya River in Bangkok: 50 original photos, free to view.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/vijit-chao-phraya-2026/drone-show/vijit-chao-phraya-2026-fireworks-burst-finale.webp",
+  "alt": "Fireworks burst over the Chao Phraya River at the Vijit Chao Phraya 2026 festival, Bangkok",
+  "stats": [
+   "<strong>50</strong> photos",
+   "<strong>Free</strong> show",
+   "<strong>Bangkok</strong>"
+  ],
+  "trip": "trips/thailand/bangkok/vijit-chao-phraya-2026/"
+ },
+ {
+  "id": "khao-san-halloween-2026",
+  "status": "live",
+  "country": "thailand",
+  "flag": "🇹🇭",
+  "city": "bangkok",
+  "cityLabel": "Bangkok",
+  "date": "2026-11-01",
+  "url": "gallery/thailand/bangkok/khao-san-road/halloween-2026/",
+  "label": "Khao San Halloween 2026",
+  "photos": 43,
+  "desc": "The Halloween parade and street costumes on Khao San Road, Bangkok: gold Thai dancers, Catwoman, creepy masks and more. Free to watch.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/khao-san-road/halloween/2026/catwoman-michael-myers-costume-khao-san.webp",
+  "alt": "Catwoman and Michael Myers costumes on Khao San Road at Halloween 2026, Bangkok",
+  "stats": [
+   "<strong>43</strong> photos",
+   "<strong>Free</strong> parade",
+   "<strong>Bangkok</strong>"
+  ],
+  "trip": "trips/thailand/bangkok/khao-san-halloween-2026/"
+ },
+ {
+  "id": "sathon",
+  "status": "live",
+  "country": "thailand",
+  "flag": "🇹🇭",
+  "city": "bangkok",
+  "cityLabel": "Bangkok",
+  "date": "2026-10-21",
+  "url": "gallery/thailand/bangkok/sathon/",
+  "label": "Bangkok temples & shrines",
+  "places": 8,
+  "photos": 65,
+  "desc": "Golden-pillared Chinese shrines, quiet Thai temples, lantern-lit corridors and a hidden park with an arch bridge: free to enter, an easy walk apart and full of photo spots.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/thailand/bangkok/sathon/wat-don-cemetery/wat-don-cemetery-chinese-pavilion.webp",
+  "alt": "Chinese pavilion in a quiet Bangkok park, one of the photo spots among the Bangkok temples and shrines",
+  "stats": [
+   "<strong>8</strong> places",
+   "<strong>65</strong> photos",
+   "<strong>Free</strong> entry"
+  ],
+  "trip": "trips/thailand/bangkok/sathon-temples-walk/"
+ },
+ {
+  "id": "vientiane",
+  "status": "soon",
+  "country": "laos",
+  "flag": "🇱🇦",
+  "city": "vientiane",
+  "cityLabel": "Vientiane",
+  "date": "2026-12-31",
+  "url": "",
+  "label": "Vientiane stupa & monument",
+  "desc": "Vientiane's gold-covered Great Sacred Stupa and the grand Patuxai monument: big, bright landmarks with wide courtyards made for photos.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/Lao/Vientiane/great%20sacred%20stupa_vientiane_laos.JPG",
+  "alt": "Pha That Luang, the gold-covered Great Sacred Stupa in Vientiane, Laos",
+  "stats": [
+   "<strong>Vientiane</strong>",
+   "Stupa · Patuxai",
+   "<strong>Coming</strong> soon"
+  ]
+ },
+ {
+  "id": "galle",
+  "status": "soon",
+  "country": "srilanka",
+  "flag": "🇱🇰",
+  "city": "galle",
+  "cityLabel": "Galle",
+  "date": "2026-12-31",
+  "url": "",
+  "label": "Galle coast & Dadalla Beach",
+  "desc": "Soft sand, fishing boats and golden-hour light on Dadalla Beach and the quiet coastal roads near Galle Fort.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/Sri%20Lanka/Galle/dadalla_beach.JPG",
+  "alt": "Dadalla Beach north of Galle Fort, Sri Lanka",
+  "stats": [
+   "<strong>Galle</strong>",
+   "Dadalla Beach",
+   "<strong>Coming</strong> soon"
+  ]
+ },
+ {
+  "id": "bihar",
+  "status": "soon",
+  "country": "india",
+  "flag": "🇮🇳",
+  "city": "bihar",
+  "cityLabel": "Bihar",
+  "date": "2026-12-31",
+  "url": "",
+  "label": "Bihar heritage sights",
+  "desc": "The Ashoka Pillar in Bihar, a lion-capital landmark from Emperor Ashoka's time and a calm, uncrowded heritage stop.",
+  "image": "https://pub-073bb9ec0405497288c023970f27deee.r2.dev/India/ashoka_pillar.JPG",
+  "alt": "Ashoka Pillar lion capital in Bihar, India",
+  "stats": [
+   "<strong>Bihar</strong>",
+   "Ashoka Pillar",
+   "<strong>Coming</strong> soon"
+  ]
+ }
+]
